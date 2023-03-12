@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_1.v,1678598020,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_10.v,,km_1,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_10.v,1678598648,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_2.v,,km_10,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_2.v,1678598626,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_20.v,,km_2,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_20.v,1678598658,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_40.v,,km_20,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_40.v,1678598664,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_5.v,,km_40,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_5.v,1678598639,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_81.v,,km_5,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_81.v,1678598672,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier.v,,km_81,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier.v,1678598680,verilog,,C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier_tb.v,,multiplier,,,,,,,,
+C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier_tb.v,1678604345,verilog,,,,multiplier_tb,,,,,,,,

@@ -1,0 +1,245 @@
+
+*** Running vivado
+    with args -log multiplier.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source multiplier.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/utils_1/imports/synth_1/multiplier.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/utils_1/imports/synth_1/multiplier.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top multiplier -part xa7a12tcpg238-2I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a12t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4240
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier.v:3]
+INFO: [Synth 8-6157] synthesizing module 'km_81' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_81.v:3]
+INFO: [Synth 8-6157] synthesizing module 'km_40' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_40.v:2]
+INFO: [Synth 8-6157] synthesizing module 'km_20' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_20.v:2]
+INFO: [Synth 8-6157] synthesizing module 'km_10' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_10.v:2]
+INFO: [Synth 8-6157] synthesizing module 'km_5' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_5.v:2]
+INFO: [Synth 8-6157] synthesizing module 'km_2' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_2.v:2]
+INFO: [Synth 8-6157] synthesizing module 'km_1' [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'km_1' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'km_2' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_2.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'km_5' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_5.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'km_10' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_10.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'km_20' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_20.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'km_40' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_40.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'km_81' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_81.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (0#1) [C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a12tcpg238-2I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a12tcpg238-2I
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/utils_1/imports/synth_1/multiplier.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1637.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input    325 Bit         XORs := 1     
+	   3 Input    163 Bit         XORs := 4     
+	   2 Input     82 Bit         XORs := 2     
+	   3 Input     81 Bit         XORs := 12    
+	   3 Input     41 Bit         XORs := 36    
+	   2 Input     41 Bit         XORs := 6     
+	   3 Input     21 Bit         XORs := 108   
+	   2 Input     21 Bit         XORs := 18    
+	   3 Input     11 Bit         XORs := 324   
+	   2 Input     11 Bit         XORs := 54    
+	   2 Input      6 Bit         XORs := 162   
+	   3 Input      5 Bit         XORs := 972   
+	   3 Input      3 Bit         XORs := 729   
+	   2 Input      3 Bit         XORs := 486   
+	   2 Input      2 Bit         XORs := 1458  
+	   2 Input      1 Bit         XORs := 2187  
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:38 . Memory (MB): peak = 1706.664 ; gain = 68.816
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:39 . Memory (MB): peak = 1706.664 ; gain = 68.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:01:44 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:01:50 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:01:50 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |   915|
+|2     |LUT3 |   458|
+|3     |LUT4 |  2402|
+|4     |LUT5 |  1386|
+|5     |LUT6 |  2839|
+|6     |IBUF |   326|
+|7     |OBUF |   325|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |  8651|
+|2     |  P1     |km_81   |  2593|
+|3     |    P1   |km_40_7 |   944|
+|4     |    P2   |km_40_8 |   815|
+|5     |    P3   |km_40_9 |   833|
+|6     |  P2     |km_81_0 |  2601|
+|7     |    P1   |km_40_4 |   847|
+|8     |    P2   |km_40_5 |   927|
+|9     |    P3   |km_40_6 |   826|
+|10    |  P3     |km_81_1 |  2806|
+|11    |    P1   |km_40   |   935|
+|12    |    P2   |km_40_2 |   955|
+|13    |    P3   |km_40_3 |   900|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:01:51 . Memory (MB): peak = 2010.402 ; gain = 372.555
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 2010.402 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2010.402 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 6099c683
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:55 . Memory (MB): peak = 2010.402 ; gain = 372.555
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.runs/synth_1/multiplier.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file multiplier_utilization_synth.rpt -pb multiplier_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 12 13:32:31 2023...
