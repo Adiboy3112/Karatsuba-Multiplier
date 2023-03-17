@@ -17,7 +17,7 @@ km_1 P1 (.A({1'b0,Ahi}),.B({1'b0,Bhi}),.out(p1));
 km_1 P2 (.A(Alo),.B(Blo),.out(p2));
 km_1 P3 (.A({1'b0,Ahi}^Alo),.B({1'b0,Bhi}^Blo),.out(p3));
 
-assign t1={p1[0],{3{1'b0}}};
+assign t1={p1[0],{4{1'b0}}};
 assign t2={{2{1'b0}},p2};
 assign t3={p3^p2^p1,{2{1'b0}}};
 

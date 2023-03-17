@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xa7a12tcpg238-2I
 
@@ -93,6 +92,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_40.v
   C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_5.v
   C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/km_81.v
+  C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/mod.v
   C:/Users/adiso/OneDrive/Desktop/Workspace/Karatsuba_Multiplier/Karatsuba_Multiplier.srcs/sources_1/new/multiplier.v
 }
 OPTRACE "Adding files" END { }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xa7a12tcpg238-2I" LaunchTime="1678608019" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/multiplier.dcp">
+<GenRun Id="synth_1" LaunchPart="xa7a12tcpg238-2I" LaunchTime="1679041550" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/multiplier.dcp">
   <File Type="PA-TCL" Name="multiplier.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="multiplier_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="multiplier_reports.tcl"/>
@@ -60,6 +60,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/mod.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/multiplier.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -70,6 +77,14 @@
     <File Path="$PSRCDIR/sources_1/new/multiplier_tb.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>

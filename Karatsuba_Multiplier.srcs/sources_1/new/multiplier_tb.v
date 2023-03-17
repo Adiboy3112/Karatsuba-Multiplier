@@ -8,10 +8,10 @@ module multiplier_tb;
   // Inputs
   reg [WIDTH-1:0] A;
   reg [WIDTH-1:0] B;
-  reg[2*WIDTH-1:0] expected_out;
+  reg[WIDTH-1:0] expected_out;
 
   // Outputs
-  wire [2*WIDTH-2:0] out;
+  wire [WIDTH-1:0] out;
 
   // Instantiate the DUT
   multiplier dut (
@@ -31,29 +31,29 @@ module multiplier_tb;
       
       case (i)
         0: begin
-          A = 0;
-          B = 0;
-          expected_out = 0;
+          A = 4;
+          B = 4;
+          expected_out = 16;
         end
         1: begin
-          A = 2;
-          B = 1;
-          expected_out = A * B;
-        end
-        2: begin
           A = 11;
           B = 11;
-          expected_out = A * B;
+          expected_out =69;
+        end
+        2: begin
+          A = 163'h8000000000000000000000000000000000000001;
+          B = 163'h8000000000000000000000000000000000000001;
+          expected_out=163'h00900000000000000004001000000008000000403;
         end
         3: begin
-          A = 1;
-          B = (2**WIDTH)-1;
-          expected_out = A * B;
+          A = 163'h7ffffffffffffffffffffffffffffffffffffffff;
+          B = 163'h7ffffffffffffffffffffffffffffffffffffffff;
+          expected_out=163'h500000000000000001555ffffffffaaaaaaabfeaa;
         end
         4: begin
-          A = (2**WIDTH-1);
-          B = 1;
-          expected_out = A * B;
+          A = 163'h810000000000000000000000000000000000001;
+          B = 163'h820000000000000000000000000000000000001;
+          expected_out = 163'h01059b648000000000000438f160801068b040001;
         end
         default: begin
           $error("Invalid test case index: %d", i);
@@ -64,11 +64,11 @@ module multiplier_tb;
       #10;
 
       // Display input values and output value
-      $display("Test %d: A = %b, B = %b, expected_out = %b, out = %b", i, A, B, expected_out, out);
+      $display("Test %d: A = %h, B = %h, expected_out = %h, out = %h", i, A, B, expected_out, out);
 
       // Compare the output to the expected value
       if (out !== expected_out) begin
-        $error("Test %d failed: expected_out = %b, out = %b", i, expected_out, out);
+        $error("Test %d failed: expected_out = %h, out = %h", i, expected_out, out);
       end
     end
 
